@@ -1,5 +1,5 @@
-Fullstack_webohjelmointi
+# fullstackopen
 
-Lisään uudet tehtävät tähän repositorioon.
+Repositorio sisältää harjoitustehtävät Full Stack Open kurssille 2018 siihen asti kuin olen niitä tehnyt.
 
-Lisätty viikko 0 word-documenttina.
+Tällä hetkellä lisätty viikko 0 word-dokumenttina, joka sisältää pyydetyt sekvenssikaaviot. Olen myös perehtynyt ensimmäisten tehtävien aineistoon.
