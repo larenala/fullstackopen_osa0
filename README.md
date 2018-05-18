@@ -1,2 +1,5 @@
-# fullstackopen_osa0
-adding another line
+Fullstack_webohjelmointi
+
+Lisään uudet tehtävät tähän repositorioon.
+
+Lisätty viikko 0 word-documenttina.
