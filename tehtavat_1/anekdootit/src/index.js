@@ -11,7 +11,9 @@ const Button = ({teksti, handleClick}) => (
 const TopVotes = (props) => (
   <div>
     <h2>anecdote with most votes:</h2><br/>
-    <div>{props.lainaus}</div>
+    <p>{props.lainaus}</p>
+    <p>has {props.aanet} votes</p>
+
   </div>
 )
 
@@ -58,7 +60,7 @@ class App extends React.Component {
       let bestPoints = pisteet[0]
       let winIndex = 0
       for(let i = 0; i < 6; i++) {
-        if(bestPoints < pisteet[i]) { 
+        if(bestPoints < pisteet[i]) {
           winIndex = i
           bestPoints = pisteet[i]
         }
@@ -80,7 +82,8 @@ class App extends React.Component {
         <Button teksti="Vote" handleClick={this.updatePoints(this.state.selected)}/>
         <Button teksti="New Quote" handleClick={this.getQuote(this.props.anecdotes)}/>
         <br />
-        <TopVotes lainaus={this.props.anecdotes[this.getMostVotedIndex(this.state.pisteet)]} />
+        <TopVotes lainaus={this.props.anecdotes[this.getMostVotedIndex(this.state.pisteet)]}
+        aanet= {this.state.pisteet[this.getMostVotedIndex(this.state.pisteet)]}/>
     </div>
   )
   }
