@@ -74,9 +74,6 @@ class App extends React.Component  {
     this.laskuri =0
     this.keskiarvo = 0
     this.positiivisia = 0
-    /*this.kasvataPos = this.kasvataPos.bind(this)
-    this.kasvataNeutral = this.kasvataNeutral.bind(this)
-    this.kasvataNeg = this.kasvataNeg.bind(this)*/
     this.kasvata = this.kasvata.bind(this)
   }
 
